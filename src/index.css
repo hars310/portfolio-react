@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #14121B; /* Change this to the desired color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1d1c1c; /* Change this to the desired color */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Change this to the desired color */
+}
+
+/* Internet Explorer */
+body {
+  scrollbar-face-color: #888; /* Change this to the desired color */
+}
