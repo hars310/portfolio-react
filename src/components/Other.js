@@ -43,20 +43,20 @@ const Other = () => {
         <h1 className='text-lg'>Basic Projects</h1>
         <div className='overflow-x-auto'>
 
-        <div className="w-full md:px-4 py-2 flex flex-nowrap gap-3" style={{ minWidth: 'fit-content' }}>
+        <div className="w-full md:px-4 md:py-2 flex flex-nowrap gap-3" style={{ minWidth: 'fit-content' }}>
           {basicProjects.map(project => (
-              <div key={project.id} className="w-40 md:w-52  bg-white min-h-48 md:min-h-[220px] max-h-fit rounded-md overflow-hidden relative cursor-pointer">
-              <div onClick={(e) => openProjectLink(e,project.link)} className=" rounded h-28 md:h-36 shadow-lg">
-                <img className="object-cover w-[100%] h-[100%]  md:w-full md:h-full" src={project.imageUrl} alt={project.title} />
-                <div className="absolute inset-0 flex items-end p-2">
-                  <div>
-                    <h3 className="font-bold text-black text-sm leading-5">{project.title}</h3>
-                    <p className="text-gray-900 text-[10px] md:text-xs break-all leading-3">{project.description}</p>
-                    <a href={'/'} onClick={(e) => openCodeLink(e, project.code)} className="text-blue-700 font-bold text-sm">Code</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+             <div key={project.id} className="w-40 md:w-52  bg-white min-h-48 md:min-h-[220px] max-h-fit rounded-md overflow-hidden relative cursor-pointer">
+             <div onClick={(e) => openProjectLink(e,project.link)} className=" rounded h-28 md:h-36 shadow-lg">
+               <img className="object-cover w-[100%] h-[100%]  md:w-full md:h-full" src={project.imageUrl} alt={project.title} />
+               <div className="absolute inset-0 flex items-end p-2">
+                 <div>
+                   <h3 className="font-bold text-black text-sm leading-5">{project.title}</h3>
+                   <p className="text-gray-900 text-[10px] md:text-xs break-all leading-3">{project.description}</p>
+                   <a href={'/'} onClick={(e) => openCodeLink(e, project.code)} className="text-blue-700 font-bold text-sm">Code</a>
+                 </div>
+               </div>
+             </div>
+           </div>
           ))}
 
           </div>
