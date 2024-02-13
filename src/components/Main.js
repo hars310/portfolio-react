@@ -7,7 +7,7 @@ import Other from './Other'
 
 const Main = () => {
   return (
-    <div className=' w-[80%] max-h-[84vh] m-4 mr-0 overflow-y-auto '>
+    <div className=' w-[100%] max-h-[84vh] md:m-4 mr-0   overflow-y-auto '>
         <Hero />
         <Projects />
         <Skills />
