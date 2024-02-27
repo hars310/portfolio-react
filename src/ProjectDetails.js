@@ -43,55 +43,55 @@ const frontendProjectsData = [
 ];
 
 const fullStackProjectsData = [
-  {
-    id: 1,
-    title: "Airbnb Clone",
-    description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
-    imageUrl: "https://1000logos.net/wp-content/uploads/2017/08/Color-Airbnb-Logo-500x354.jpg",
-    link: "",
-    code: ""
-  },
+  // {
+  //   id: 1,
+  //   title: "Airbnb Clone",
+  //   description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
+  //   imageUrl: "https://1000logos.net/wp-content/uploads/2017/08/Color-Airbnb-Logo-500x354.jpg",
+  //   link: "",
+  //   code: ""
+  // },
   {
     id: 2,
     title: "Pinterest Clone",
     description: "Tailwind CSS, EJS, Express, NodeJS, MongoDB",
     imageUrl: "https://imgs.search.brave.com/a83NkaqqDTj3tcAegECcA0_yJbGN7l351PRdOQhRHRo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/d2lrLmNvbS9jb250/ZW50L3VwbG9hZHMv/aW1hZ2VzLzQxOF9w/aW50ZXJlc3QuanBn",
-    link: "",
+    link: "https://github.com/hars310/pinterest-clone",
     code: "https://github.com/hars310/pinterest-clone"
   },
 
 
-  {
-    id: 3,
-    title: "Ecommerce Website",
-    description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
-    imageUrl: "https://imgs.search.brave.com/bpXoyyPV77Ob7Pi-Jyf5N6hKCXyYwGWLYY0MfMh9-vY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQz/MzM2MjYzOC9waG90/by9vbmxpbmUtc2hv/cHBpbmctY29uY2Vw/dC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9bVhBRXN2NVpI/VWZsNzMyTFZZRi1S/RTRYbTBZT2pWTHAw/cmlVbVpWdGJ2ND0",
-    link: "",
-    code: ""
-  },
-  {
-    id: 4,
-    title: "Zoom Clone",
-    description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
-    imageUrl: "https://imgs.search.brave.com/yY6dVAvpWFp-UbyMdPH3rq2fAonEO4j4Ma-MOo_v77M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDIvWm9vbS1TeW1i/b2wtNzAweDM5NC5q/cGc",
-    link: "",
-    code: ""
-  },
-  {
-    id: 5,
-    title: "Youtube Clone",
-    description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
-    imageUrl: "https://imgs.search.brave.com/PhL0gJPOLEArCK_uTAE0hJsS424Pd-hCzuXIH_Aw1-E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzM0LzMxLzk2/LzM2MF9GXzYzNDMx/OTYzMF90eHRnbVBM/RUVROG80emF4ZWMy/V0tyTFdVQnFkQkJR/bi5qcGc",
-    link: "",
-    code: ""
-  }, {
-    id: 6,
-    title: "Spotify Clone",
-    description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
-    imageUrl: "https://imgs.search.brave.com/u-U_RzDFRGpZTgA7WgvCriJVbEgAmqbG5BTMvXDBoCk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIz/Njk3NDQ5OS9waG90/by9pbi10aGlzLXBo/b3RvLWlsbHVzdHJh/dGlvbi10aGUtc3Bv/dGlmeS1sb2dvLXNl/ZW4tZGlzcGxheWVk/LW9uLWEtbGFwdG9w/LXNjcmVlbi1iZWhp/bmQtYS1wYWlyLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1G/c2Ita1N1OHE5b0Jp/TnVka0MxWDZ2b0Nr/THIyZmt3WUE1Vktz/b2R2dXVRPQ",
-    link: "https://spotify-harsh.netlify.app/",
-    code: "https://github.com/hars310/spotify-clone"
-  }
+  // {
+  //   id: 3,
+  //   title: "Ecommerce Website",
+  //   description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
+  //   imageUrl: "https://imgs.search.brave.com/bpXoyyPV77Ob7Pi-Jyf5N6hKCXyYwGWLYY0MfMh9-vY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQz/MzM2MjYzOC9waG90/by9vbmxpbmUtc2hv/cHBpbmctY29uY2Vw/dC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9bVhBRXN2NVpI/VWZsNzMyTFZZRi1S/RTRYbTBZT2pWTHAw/cmlVbVpWdGJ2ND0",
+  //   link: "",
+  //   code: ""
+  // },
+  // {
+  //   id: 4,
+  //   title: "Zoom Clone",
+  //   description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
+  //   imageUrl: "https://imgs.search.brave.com/yY6dVAvpWFp-UbyMdPH3rq2fAonEO4j4Ma-MOo_v77M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDIvWm9vbS1TeW1i/b2wtNzAweDM5NC5q/cGc",
+  //   link: "",
+  //   code: ""
+  // },
+  // {
+  //   id: 5,
+  //   title: "Youtube Clone",
+  //   description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
+  //   imageUrl: "https://imgs.search.brave.com/PhL0gJPOLEArCK_uTAE0hJsS424Pd-hCzuXIH_Aw1-E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzM0LzMxLzk2/LzM2MF9GXzYzNDMx/OTYzMF90eHRnbVBM/RUVROG80emF4ZWMy/V0tyTFdVQnFkQkJR/bi5qcGc",
+  //   link: "",
+  //   code: ""
+  // }, {
+  //   id: 6,
+  //   title: "Spotify Clone",
+  //   description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
+  //   imageUrl: "https://imgs.search.brave.com/u-U_RzDFRGpZTgA7WgvCriJVbEgAmqbG5BTMvXDBoCk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIz/Njk3NDQ5OS9waG90/by9pbi10aGlzLXBo/b3RvLWlsbHVzdHJh/dGlvbi10aGUtc3Bv/dGlmeS1sb2dvLXNl/ZW4tZGlzcGxheWVk/LW9uLWEtbGFwdG9w/LXNjcmVlbi1iZWhp/bmQtYS1wYWlyLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1G/c2Ita1N1OHE5b0Jp/TnVka0MxWDZ2b0Nr/THIyZmt3WUE1Vktz/b2R2dXVRPQ",
+  //   link: "https://spotify-harsh.netlify.app/",
+  //   code: "https://github.com/hars310/spotify-clone"
+  // }
 ];
 const basicProjects = [
   {
