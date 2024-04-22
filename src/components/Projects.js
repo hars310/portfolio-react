@@ -28,7 +28,11 @@ const Projects = () => {
                     <div className=''>
                       <h3 className="font-bold text-black text-sm leading-5">{project.title}</h3>
                       <p className="text-gray-900 text-[10px] md:text-xs break-all leading-3">{project.description}</p>
-                      <a href={'/'} onClick={(e) => openCodeLink(e, project.code)} className="text-blue-700 font-bold text-sm">Code</a>
+                     <div className='flex flex-row justify-between pr-4 mt-1'>
+                     <a href={'/'} onClick={(e) => openCodeLink(e, project.code)} className="text-blue-700 font-bold text-sm">Code</a>
+                      <a href={'/'} onClick={(e) => openProjectLink(e, project.link)} className="text-blue-700 font-bold text-sm">Live</a>
+                     </div>
+
                     </div>
                   </div>
                 </div>
