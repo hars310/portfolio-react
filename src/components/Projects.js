@@ -17,7 +17,7 @@ const Projects = () => {
     <div className='px-2 md:px-4 py-4'>
       <h1 className='text-2xl font-bold'>Projects</h1>
       <div className='mt-2 md:px-2'>
-        <h1 className='text-lg'>Fullstack</h1>
+        {/* <h1 className='text-lg'>Fullstack</h1> */}
         <div className='overflow-x-auto'>
           <div className="w-full md:px-4 md:py-2 flex flex-nowrap gap-3" style={{ minWidth: 'fit-content' }}>
             {fullStackProjectsData.map(project => (

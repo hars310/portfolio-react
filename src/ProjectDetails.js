@@ -43,14 +43,14 @@ const frontendProjectsData = [
 ];
 
 const fullStackProjectsData = [
-  // {
-  //   id: 1,
-  //   title: "Airbnb Clone",
-  //   description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
-  //   imageUrl: "https://1000logos.net/wp-content/uploads/2017/08/Color-Airbnb-Logo-500x354.jpg",
-  //   link: "",
-  //   code: ""
-  // },
+  {
+    id: 1,
+    title: "Chat App",
+    description: "React, Tailwind CSS, NodeJS, Express, MongoDB, Socket IO",
+    imageUrl: "https://imgs.search.brave.com/X9oFxrfYz7HfMFFenYYBN60FLrv1hBVLnJQcaDrMs_8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZW5k/YmlyZC5zZm8zLmRp/Z2l0YWxvY2VhbnNw/YWNlcy5jb20vY21z/L1R1dG9yaWFsLWlt/YWdlLWVzc2VudGlh/bC1jaGF0LWFwcC1m/ZWF0dXJlcy10by1i/dWlsZC5qcGc",
+    link: "https://baat-cheet-424l.onrender.com/",
+    code: "https://github.com/hars310/Chat-app"
+  },
   {
     id: 2,
     title: "Pinterest Clone",
@@ -61,14 +61,14 @@ const fullStackProjectsData = [
   },
 
 
-  // {
-  //   id: 3,
-  //   title: "Ecommerce Website",
-  //   description: "React, Tailwind CSS, NodeJS, Express, MongoDB",
-  //   imageUrl: "https://imgs.search.brave.com/bpXoyyPV77Ob7Pi-Jyf5N6hKCXyYwGWLYY0MfMh9-vY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQz/MzM2MjYzOC9waG90/by9vbmxpbmUtc2hv/cHBpbmctY29uY2Vw/dC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9bVhBRXN2NVpI/VWZsNzMyTFZZRi1S/RTRYbTBZT2pWTHAw/cmlVbVpWdGJ2ND0",
-  //   link: "",
-  //   code: ""
-  // },
+  {
+    id: 3,
+    title: "News App",
+    description: "React, Tailwind CSS, NodeJS, Express",
+    imageUrl: "https://imgs.search.brave.com/bpXoyyPV77Ob7Pi-Jyf5N6hKCXyYwGWLYY0MfMh9-vY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQz/MzM2MjYzOC9waG90/by9vbmxpbmUtc2hv/cHBpbmctY29uY2Vw/dC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9bVhBRXN2NVpI/VWZsNzMyTFZZRi1S/RTRYbTBZT2pWTHAw/cmlVbVpWdGJ2ND0",
+    link: "https://newsapp-4f8o.onrender.com/",
+    code: "https://github.com/hars310/NEWSAPP_WITH_BACKEND"
+  },
   // {
   //   id: 4,
   //   title: "Zoom Clone",
