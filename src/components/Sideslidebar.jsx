@@ -53,12 +53,12 @@ const SideSlideBar = () => {
             </li>
             <li>
               <a
-                href="https://twitter.com/"
+                href="https://twitter.com/kumar__harsh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 flex flex-row items-center hover:text-violet-600 text-md"
               >
-                <FaTwitter className="text-violet-600 text-xl mr-2" /> Twitter
+                <FaTwitter className="text-violet-600 text-xl mr-2" /> X
               </a>
             </li>
             <li>
