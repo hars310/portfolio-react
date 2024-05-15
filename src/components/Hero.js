@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import passport from '../images/portfolio-bg.jpg';
-import { CgClose } from 'react-icons/cg';
-import { BiCloset } from 'react-icons/bi';
+
 import { IoMdClose } from 'react-icons/io';
 
 const Hero = () => {
