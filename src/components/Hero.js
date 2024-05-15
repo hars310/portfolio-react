@@ -1,5 +1,5 @@
 import React from 'react'
-import passport from '../passportsize-removebg-preview.png'
+import passport from '../images/portfolio-bg.jpg'
 const Hero = () => {
   return (
     <div className='h-20 w-full md:h-36   md:p-4  flex justify-between' style={{background: 'linear-gradient(90deg, rgba(135,73,176,1) 21%, rgba(56,166,166,1) 63%, rgba(92,156,99,1) 80%)'}}>
