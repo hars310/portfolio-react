@@ -21,9 +21,9 @@ const Projects = () => {
           <div className="w-full md:px-4 md:py-2 flex flex-nowrap gap-3" style={{ minWidth: 'fit-content' }}>
             {fullStackProjectsData.map(project => (
               <div key={project.id} className="w-40 md:w-52 bg-white min-h-48 md:min-h-[230px] max-h-fit rounded-md overflow-hidden relative cursor-pointer">
-                <div onClick={(e) => openProjectLink(e, project.link)} className="rounded h-28 md:h-36 shadow-lg">
+                <div onClick={(e) => openProjectLink(e, project.link)} className="rounded h-28 md:h-36 shadow-lg ">
                   <img
-                    className="w-full h-full md:w-full md:h-full hover:scale-110"
+                    className="w-full h-full md:w-full md:h-full "
                     src={project.imageUrl}
                     alt={project.title}
                   />
