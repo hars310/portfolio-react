@@ -5,7 +5,7 @@ import { TbBrandLeetcode } from 'react-icons/tb';
 const Sidebar = () => {
   return (
     <div  className=' w-[30%]  md:flex hidden '>
-      <div className='bg-[#1D1A23] w-full  h-[84vh] p-8 rounded-lg shadow-md'>
+      <div className='bg-[#1D1A23] w-full  md:h-fit p-8 m-2 rounded-lg shadow-md'>
       <h1 className='text-xl mb-4'>Socials</h1>
       <ul className="space-y-6">
   <li>

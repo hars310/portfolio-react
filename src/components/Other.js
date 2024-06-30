@@ -19,11 +19,11 @@ const Other = () => {
       <h1 className='text-2xl font-bold mt-4'>Other Projects</h1>
       <div className='md:mt-2 md:px-2'>
         <h1 className='text-lg'>Frontend</h1>
-        <div className='overflow-x-auto'>
-          <div className="w-full md:px-4 py-2 flex flex-nowrap gap-4 overflow-hidden" style={{ minWidth: 'fit-content' }}>
+        <div className='overflow-x-auto '>
+          <div className="w-full md:px-4 py-2 flex flex-nowrap gap-5 ml-4" style={{ minWidth: 'fit-content' }}>
             {frontendProjectsData.map(project => (
-              <div key={project.id} className="w-44 md:w-56 bg-white h-auto rounded-md overflow-hidden relative cursor-pointer transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
-                <div onClick={(e) => openProjectLink(e, project.link)} className="rounded h-32 md:h-40 overflow-hidden">
+              <div key={project.id} className="w-56 md:w-60 bg-white h-auto rounded-md overflow-hidden relative cursor-pointer transform transition-transform duration-300 hover:scale-110 shadow-lg hover:shadow-xl">
+                <div onClick={(e) => openProjectLink(e, project.link)} className="rounded h-40 md:h-44 overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
                     src={project.imageUrl}
@@ -53,10 +53,10 @@ const Other = () => {
       <div className='mt-8 md:px-2'>
         <h1 className='text-lg'>Basic Projects</h1>
         <div className='overflow-x-auto'>
-          <div className="w-full md:px-4 py-2 flex flex-nowrap gap-4" style={{ minWidth: 'fit-content' }}>
+          <div className="w-full md:px-4 py-2 flex flex-nowrap gap-5 ml-4" style={{ minWidth: 'fit-content' }}>
             {basicProjects.map(project => (
-              <div key={project.id} className="w-44 md:w-56 bg-white h-auto rounded-md overflow-hidden relative cursor-pointer transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
-                <div onClick={(e) => openProjectLink(e, project.link)} className="rounded h-32 md:h-40 overflow-hidden">
+              <div key={project.id} className="w-56 md:w-60 bg-white h-auto rounded-md overflow-hidden relative cursor-pointer transform transition-transform duration-300 hover:scale-110 shadow-lg hover:shadow-xl">
+                <div onClick={(e) => openProjectLink(e, project.link)} className="rounded h-40 md:h-44 overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
                     src={project.imageUrl}
