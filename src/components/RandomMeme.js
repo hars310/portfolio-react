@@ -9,7 +9,7 @@ const RandomMeme = () => {
       const options = {
         method: 'GET',
         headers: {
-          'x-rapidapi-key': process.env.API_KEY, // Replace with your actual RapidAPI key
+          'x-rapidapi-key': process.env.MEME_API_KEY, // Replace with your actual RapidAPI key
           'x-rapidapi-host': 'programming-memes-images.p.rapidapi.com'
         }
       };
@@ -19,7 +19,7 @@ const RandomMeme = () => {
         const data = await response.json();
         if (data && data.length > 0) {
           setMemeUrl(data[0].image)
-        //   console.log(data[0].image)
+          console.log(data[0].image)
         } else {
           console.error('No memes found');
         }
