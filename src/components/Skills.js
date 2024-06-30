@@ -10,7 +10,7 @@ const Skills = () => {
                 <div className='bg-gray-600 p-2 w-fit min-w-[20%] rounded-md'>
                     <p align="left">
                         
-                            <img className='h-10 md:h-auto' src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap" alt='' />
+                            <img className='h-10 md:h-auto' src="https://skillicons.dev/icons?i=html,css,js,nextjs,react,redux,tailwind,bootstrap,materialui,solidity" alt='' />
                         
                     </p>
                 </div>
@@ -20,7 +20,7 @@ const Skills = () => {
                 <div className='bg-gray-600 p-2 w-fit min-w-[20%] rounded-md'>
                     <p align="left">
                         
-                            <img className='h-10 md:h-auto' src="https://skillicons.dev/icons?i=express,nodejs,python,cpp" alt='' />
+                            <img className='h-10 md:h-auto' src="https://skillicons.dev/icons?i=express,nodejs,python,cpp,c" alt='' />
                         
                     </p>
                 </div>
@@ -30,7 +30,7 @@ const Skills = () => {
                 <div className='bg-gray-600 p-2  min-w-[20%] rounded-md'>
                     <p align="left">
                         
-                            <img className='h-10 md:h-auto' src="https://skillicons.dev/icons?i=mongo,mysql" alt='' />
+                            <img className='h-10 md:h-auto' src="https://skillicons.dev/icons?i=mongo,mysql,aws" alt='' />
                         
                     </p>
                 </div>
@@ -40,7 +40,7 @@ const Skills = () => {
                 <div className='bg-gray-600 p-2 w-fit min-w-[20%] rounded-md'>
                     <p align="left">
                        
-                            <img className='h-10 md:h-auto' src="https://skillicons.dev/icons?i=postman,netlify,github,git,vscode" alt='' />
+                            <img className='h-10 md:h-auto' src="https://skillicons.dev/icons?i=postman,netlify,npm,github,git,vscode,vercel" alt='' />
                        
                     </p>
                 </div>
